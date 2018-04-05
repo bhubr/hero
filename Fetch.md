@@ -12,12 +12,7 @@ Comment faire une requête ? Avec Fetch. Fetch est désormais standard dans les 
 > des faux utilisateurs de façon aléatoire.
 
 ```javascript
-fetch('https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/id/10.json', {
-  headers: {
-    'Accept': 'application/json',
-    'Content-Type': 'application/json'
-  }
-})
+fetch('https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/id/10.json')
 .then(response => response.json())
 .then(data => {
 
