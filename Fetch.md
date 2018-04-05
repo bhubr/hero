@@ -12,7 +12,7 @@ Comment faire une requête ? Avec Fetch. Fetch est désormais standard dans les 
 > des faux utilisateurs de façon aléatoire.
 
 ```javascript
-fetch('https://randomuser.me/api/', {
+fetch('https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/id/10.json', {
   headers: {
     'Accept': 'application/json',
     'Content-Type': 'application/json'
@@ -20,6 +20,11 @@ fetch('https://randomuser.me/api/', {
 })
 .then(response => response.json())
 .then(data => {
+
+  // C'EST LA QUE SE PASSENT LES CHOSES INTERESSANTES !
+  // Le paramètre data contient l'objet reçu, décodé à partir du JSON.
 	console.log(data)	
 })
 ```
+
+Pour répondre à la question légitime "que faire avec les données de l'API", rends-toi sur la section suivante, sur la [création de HTML](Creation-de-HTML.md) dans le navigateur web.
