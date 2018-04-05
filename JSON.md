@@ -34,7 +34,10 @@ Le client reconstruit des objets ou tableaux à partir du JSON.
 
 Voici un exemple d'URL d'une API qui fournit du JSON : https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/id/10.json. Essaie de copier-coller ça dans la barre d'adresse de ton navigateur !
 
-Mieux, ouvre les outils développeurs, va dans l'onglet Réseau / Network, et jongle entre les sous-onglets "preview" et "response" de ce que le serveur a répondu à cette requête.
+Mieux, ouvre les outils développeurs, va dans l'onglet Réseau / Network, et jongle entre les sous-onglets "preview" et "response", pour voir ce que le serveur a répondu à cette requête.
+
+* Response donne la réponse "brute" : c'est du texte, une chaîne de caractères
+* Preview donne la réponse *interprétée*, c'est à dire, l'objet ou tableau JavaScript recréé à partir du JSON
 
 ![Preview du retour d'une requête](https://github.com/bhubr/hero/blob/master/request-chrome-dev-tools.png)
 
