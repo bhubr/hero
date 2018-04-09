@@ -1,4 +1,4 @@
-# Hackaton - Ressources
+# Hackathon - Ressources
 
 De quoi tu vas avoir besoin ?
 * De quelques docs
